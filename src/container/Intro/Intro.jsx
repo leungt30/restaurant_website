@@ -25,7 +25,7 @@ const Intro = () => {
         src={meal}
         ref = {vidRef}
         type="video/mp4"
-        Loop
+        loop
         controls={false}
         muted
       />
@@ -34,8 +34,8 @@ const Intro = () => {
           onClick={handleVideo}
         >
           {playVideo 
-            ? (<BsPauseFill color="#fff" fontsize={30} />)
-            :<BsPlayFill color="#fff" fontsize={30}/>}
+            ? (<BsPauseFill color="#fff" fontSize={30} />)
+            :<BsPlayFill color="#fff" fontSize={30}/>}
         </div>
       </div>
     </div>
