@@ -15,9 +15,9 @@ const Chef = () => (
       <div className='app__chef-content'>
         <div className='app__chef-content_quote'>
           <img src={images.quote} alt="quote" />
-          <p className='p__opensans' style={{color:'var(--color-grey)'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
+          <p className='p__opensans' style={{color:'var(--color-grey)'}}>my philosophy is simple: to source the freshest, locally sourced </p>
         </div>
-        <p className='p__opensans'style={{color:'var(--color-grey)'}}>auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</p>
+        <p className='p__opensans'style={{color:'var(--color-grey)'}}>ingredients and craft each dish with precision and passion. I believe that every plate should not only be delicious, but also visually stunning, elevating the dining experience for every guest.</p>
       </div>
       <div className='app__chef-sign'>
         <p>Kevin Luo</p>
